@@ -1,0 +1,57 @@
+body {
+    padding-top: 56px; /* Adjust based on the height of your fixed navbar */
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 72px; /* Adjust based on the height of your fixed navbar */
+    }
+}
+
+/* Sidebar Styling */
+.sidebar {
+   
+    color: #fff;
+    padding: 20px;
+}
+.navbar li{
+   border-radius: 5px;
+
+}
+.navbar li:hover{
+    background-color: #094793a4;
+
+}
+.navbar a {
+    color: #090707;
+
+}
+.navbar a:hover{
+    color: #ffffff;
+
+}
+
+.sidebar a {
+    color: #141313;
+}
+
+.sidebar a:hover {
+    color: #ffffff;
+}
+/* Main Content Styling */
+.sidebar li:hover{
+    background-color: #094793a4;
+
+}
+.sidebar li{
+    border-radius: 5px;
+
+}
+.content {
+    padding: 0px;
+}
+
+/* FontAwesome Icons */
+i {
+    margin-right: 8px;
+}
